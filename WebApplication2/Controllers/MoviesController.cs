@@ -144,6 +144,8 @@ namespace MvcMovie.Controllers
             return RedirectToAction(nameof(Index));
         }
 
+        //THIS IS DJ
+        //CHANGES FOR TESTING
         private bool MovieExists(int id)
         {
             return _context.Movie.Any(e => e.ID == id);
