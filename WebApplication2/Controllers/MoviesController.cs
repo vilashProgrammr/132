@@ -21,6 +21,7 @@ namespace MvcMovie.Controllers
         // GET: Movies
         //THIS IS DJ  
         //CHANGES
+        //another changes
         public async Task<IActionResult> Index()
         {
             return View(await _context.Movie.ToListAsync());
